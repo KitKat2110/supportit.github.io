@@ -94,14 +94,14 @@
     color: #ffffff;
     font-weight: 500;
   }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .wrapper {
       font-size: 12px;
     }
     img {
       right: -5%;
     }
-  }
+    }
 
 
   
