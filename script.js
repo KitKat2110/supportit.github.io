@@ -65,7 +65,7 @@ const valueGenerator = (angleValue) => {
     //if the angleValue is between min and max then display it
     if (angleValue >= i.minDegree && angleValue <= i.maxDegree) {
       finalValue.innerHTML = `<p>Congratulations You have Won: ${i.value}</p>  <button class="claim" onclick="visitPage();">Claim Now!</button>`;
-      spinBtn.disabled = false;
+      spinBtn.disabled = true;
       break;
     }
     
