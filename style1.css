@@ -8,6 +8,22 @@
     height: 100vh;
     background: linear-gradient(135deg, #ff0000, #000000);
   }
+  .h2{
+    position: absolute;
+    rotate: 90deg;
+    font-size: 100px;
+    top: 310px;
+    color: white;
+    right: -40px;
+  }
+  .h3{
+    position: absolute;
+    rotate: -90deg;
+    font-size: 100px;
+    top: 310px;
+    color: rgb(0, 0, 0);
+    left: -55px;
+  }
   .wrapper {
     width: 90%;
     max-width: 34.37em;
